@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    background-image: url("../../logo_banner/paisaje.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
+header {
+    width: 100%;
+    padding: 0 50px;
+    background-color: rgba(255, 255, 255, 0.726);
+    display: flex;
+    flex-direction: row;
+}
+.head_container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.head_logo img {
+    width: 200px;
+    margin: 0 auto;
+}
+.head_menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.head_menu ul li {
+    margin: 0 15px;
+}
+.head_menu ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin:  0 auto;
+    padding-bottom: 50px;
+}
+main .hew {
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+}
+.hew hr {
+    width: 100%;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 0 auto;
+}
+.hew p {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 30px 20px;
+    margin-left: 50px;
+}
+main .separador {
+    width: 100%;
+    max-width: 1200px;
+    min-height: 700px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: row;
+}
+.separador .paquete {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.separador .colca {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.paquete > *{
+    margin: 0 auto;
+    max-width: 500px;
+    filter: invert(1);
+}
+.colca img{
+    margin: 0 auto;
+    max-width: 500px;
+}

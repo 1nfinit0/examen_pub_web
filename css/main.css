@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    background-image: url("../logo_banner/paisaje.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
+header {
+    width: 100%;
+    padding: 0 50px;
+    background-color: rgba(255, 255, 255, 0.726);
+    display: flex;
+    flex-direction: row;
+}
+.head_container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.head_logo img {
+    width: 200px;
+    margin: 0 auto;
+}
+.head_menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.head_menu ul li {
+    margin: 0 15px;
+}
+.head_menu ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+main {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+main .separador {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 10px;
+}
+.paquete {
+    width: 30%;
+    margin-right: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.paquete img {
+    width: 400px;
+    filter: invert(100%);
+}
+.colca {
+    width: 70%;
+    margin-left: 10px;
+    display: flex;
+    margin: 0 auto;
+}
+.colca img {
+    width: 600px;
+    filter: invert(100%);
+    margin: 0 auto;
+}
+.bienvenidos {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+}
+.bienvenidos p {
+    background-color: rgb(41, 78, 138);
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+.oferta {
+    width: 50%;
+    margin-right: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.banner {
+    width: 50%;
+    margin-right: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.oferta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 40px;
+    flex-wrap: wrap;
+}
+.ofertas {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.507);
+}
+.ofertas p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 5px;
+    color: black;
+}
+.oferta img {
+    width: 30%;
+    max-width: 80px;
+    margin: 0 auto;
+    filter: invert(1);
+}
+.precios {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.507);
+}
+.precios > div {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.precios > div p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 5px;
+    color: black;
+}
+.separa {
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.336);
+    border: 20px solid rgba(62, 41, 15, 0.507);
+    margin-bottom: 150px;
+}
+.separa p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 5px;
+    color: rgb(232, 248, 15);
+}	
+footer {
+    width: 100%;
+    padding: 0 50px;
+    background-color: rgba(41, 112, 192, 0.726);
+    display: flex;
+    flex-direction: column;
+}
+.foot_container {
+    width: 100%;
+    max-width: 1000px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.info {
+    width: 50%;
+    margin-right: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.bonner {
+    width: 50%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.info > * {
+    font-size: 2rem;
+    padding: 10px 0 10px 100px;
+    text-align: justify;
+}
+.boonner img {
+    width: 100%;
+    margin: 0 auto;
+}
